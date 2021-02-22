@@ -4,6 +4,8 @@
 
 - No arquivo **Dockerfile**, modificar os valores das variavéis de ambiente **DUMP_MONGO_USER** e **DUMP_MONGO_PASSWORD** com seu usuário e senha em **@user** e **@password**.
 
+- Também modificar o valor da variável de ambiente **DUMP_MONGO_DATABASE** com seu nome de database em **@databaseName**
+
 - Executar os commandos abaixo, escolhendo um **@containerName**:
 ``` docker
 docker build --rm -t mongo-container .
